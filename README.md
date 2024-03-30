@@ -1,5 +1,6 @@
 # edscratchFrench
-Browser plugin for Edison Edscratch with French localization, a translation of the work of @stehlikovap and @strzinek. Works for three different versions of Edison Edscratch:
+From the work of @stehlikovap and @strzinek.
+Browser plugin for Edison Edscratch with French localization. Works for three different versions of Edison Edscratch:
 
 - [Edison Edscratch v3](https://www.edscratchapp.com/v3/)
 - [Edison Edscratch v2](https://www.edscratchapp.com/v2/)
