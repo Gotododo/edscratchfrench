@@ -1,8 +1,8 @@
 {
-  "name": "EdScratchCzech",
-  "version": "1.7",
-  "description": "Translate EdScratch blocks into Czech",
-  "manifest_version": 3,
+  "name": "EdScratchFrench",
+  "version": "1.0",
+  "description": "Translate EdScratch blocks into French",
+  "manifest_version": 1,
   "icons": {
     "128": "icon.png"
   },
@@ -34,11 +34,11 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "blockly_compressed_vertical_czech.js",
-        "blocks_compressed_vertical_czech.js",
-        "blocks_compressed_vertical_czech_v3.js",
-        "errorMessages_czech.js",
-        "messages_czech_v3.js"
+        "blockly_compressed_vertical_french.js",
+        "blocks_compressed_vertical_french.js",
+        "blocks_compressed_vertical_french_v3.js",
+        "errorMessages_french.js",
+        "messages_french_v3.js"
       ],
       "matches": [
         "*://*.edscratchapp.com/*"
