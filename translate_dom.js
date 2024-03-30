@@ -11,31 +11,31 @@ for (var i = 0; i < categoryMenuItems.length; i++) {
 
     switch (menuTitle) {
         case "Drive":
-            translation = "Pohyb";
+            translation = "Moteurs";
             break;
         case "LEDs":
-            translation = "Světla";
+            translation = "DELs";
             break;
         case "Sound":
-            translation = "Zvuk";
+            translation = "Sons";
             break;
         case "Data":
-            translation = "Proměnné";
+            translation = "Données";
             break;
         case "Events":
-            translation = "Události";
+            translation = "Évènements";
             break;
         case "Control":
-            translation = "Ovládání";
+            translation = "Contrôle";
             break;
         case "Sensing":
-            translation = "Vnímání";
+            translation = "Capteurs";
             break;
         case "Operators":
-            translation = "Operátory";
+            translation = "Opérateurs";
             break;
         case "Comment":
-            translation = "Komentář";
+            translation = "Commentaire";
             break;
     }
 
