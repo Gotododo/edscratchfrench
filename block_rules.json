@@ -5,7 +5,7 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/blockly_compressed_vertical_czech.js"
+                "extensionPath": "/blockly_compressed_vertical_french.js"
             }
         },
         "condition": {
@@ -21,7 +21,7 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/blocks_compressed_vertical_czech.js"
+                "extensionPath": "/blocks_compressed_vertical_french.js"
             }
         },
         "condition": {
@@ -37,7 +37,7 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/blocks_compressed_vertical_czech_v3.js"
+                "extensionPath": "/blocks_compressed_vertical_french_v3.js"
             }
         },
         "condition": {
@@ -53,7 +53,7 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/messages_czech_v3.js"
+                "extensionPath": "/messages_french_v3.js"
             }
         },
         "condition": {
@@ -69,7 +69,7 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "extensionPath": "/errorMessages_czech.js"
+                "extensionPath": "/errorMessages_french.js"
             }
         },
         "condition": {
