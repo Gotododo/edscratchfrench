@@ -2,7 +2,7 @@
   "name": "EdScratchFrench",
   "version": "1.0",
   "description": "Translate EdScratch blocks into French",
-  "manifest_version": 1,
+  "manifest_version": 3,
   "icons": {
     "128": "icon.png"
   },
