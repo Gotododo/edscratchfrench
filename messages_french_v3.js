@@ -34,18 +34,18 @@ goog.provide('Blockly.Msg.en');
 goog.require('Blockly.Msg');
 
 // Control blocks
-Blockly.Msg.CONTROL_FOREVER = 'opakuj stále';
-Blockly.Msg.CONTROL_REPEAT = 'opakuj %1 krát';
-Blockly.Msg.CONTROL_IF = 'když %1 tak';
-Blockly.Msg.CONTROL_ELSE = 'jinak';
+Blockly.Msg.CONTROL_FOREVER = 'répéter pour toujours';
+Blockly.Msg.CONTROL_REPEAT = 'répéter %1 fois';
+Blockly.Msg.CONTROL_IF = 'si %1 alors';
+Blockly.Msg.CONTROL_ELSE = 'sinon';
 Blockly.Msg.CONTROL_STOP = 'stop';
 Blockly.Msg.CONTROL_STOP_ALL = 'all';
 Blockly.Msg.CONTROL_STOP_THIS = 'this script';
 Blockly.Msg.CONTROL_STOP_OTHER = 'other scripts in sprite';
-Blockly.Msg.CONTROL_WAIT = 'čekej %1 sekund';
-Blockly.Msg.CONTROL_WAIT_MILLISECONDS = 'čekej %1 milisekund';
-Blockly.Msg.CONTROL_WAITUNTIL = 'čekej dokud nenastane %1';
-Blockly.Msg.CONTROL_REPEATUNTIL = 'opakuj dokud nenastane %1';
+Blockly.Msg.CONTROL_WAIT = 'attendre %1 secondes';
+Blockly.Msg.CONTROL_WAIT_MILLISECONDS = 'attendre %1 millisecondes';
+Blockly.Msg.CONTROL_WAITUNTIL = 'attendre jusqu'à %1';
+Blockly.Msg.CONTROL_REPEATUNTIL = 'répéter jusqu'à %1';
 Blockly.Msg.CONTROL_WHILE = 'while %1';
 Blockly.Msg.CONTROL_FOREACH = 'for each %1 in %2';
 Blockly.Msg.CONTROL_STARTASCLONE = 'when I start as a clone';
@@ -278,12 +278,12 @@ Blockly.Msg.SOUND_RECORD = 'record...';
 Blockly.Msg.CATEGORY_MOTION = 'Motion';
 
 Blockly.Msg.CATEGORY_LOOKS = 'Looks';
-Blockly.Msg.CATEGORY_SOUND = 'Zvuk';
-Blockly.Msg.CATEGORY_EVENTS = 'Události';
-Blockly.Msg.CATEGORY_CONTROL = 'Ovládání';
-Blockly.Msg.CATEGORY_SENSING = 'Vnímání';
-Blockly.Msg.CATEGORY_OPERATORS = 'Operátory';
-Blockly.Msg.CATEGORY_VARIABLES = 'Proměnné';
+Blockly.Msg.CATEGORY_SOUND = 'Sons';
+Blockly.Msg.CATEGORY_EVENTS = 'Evènements';
+Blockly.Msg.CATEGORY_CONTROL = 'Contrôle';
+Blockly.Msg.CATEGORY_SENSING = 'Capteurs';
+Blockly.Msg.CATEGORY_OPERATORS = 'Operateurs';
+Blockly.Msg.CATEGORY_VARIABLES = 'Varirables';
 Blockly.Msg.CATEGORY_MYBLOCKS = 'My Blocks';
 
 Blockly.Msg.CATEGORY_DRIVE = 'Pohyb';
