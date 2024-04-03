@@ -86,19 +86,19 @@ Blockly.Msg.DATA_INDEX_LAST = 'last';
 Blockly.Msg.DATA_INDEX_RANDOM = 'random';
 
 // Event blocks
-Blockly.Msg.EVENT_ANY_OBSTACLE = 'Zjištěna překážka';
-Blockly.Msg.EVENT_OBSTACLE_AHEAD = 'Zjištěna překážka vepředu';
-Blockly.Msg.EVENT_OBSTACLE_LEFT = 'Zjištěna překážka vlevo';
-Blockly.Msg.EVENT_OBSTACLE_RIGHT = 'Zjištěna překážka vpravo';
-Blockly.Msg.EVENT_CLAP = 'Tlesknutí';
-Blockly.Msg.EVENT_BUTTON_TRIANGLE = 'Trojúhelníkové tlačítko zmáčknuto';
-Blockly.Msg.EVENT_BUTTON_ROUND = 'Kulaté tlačítko zmáčknuto';
-Blockly.Msg.EVENT_LINE_REFLECTIVE = 'Senzor sledování čáry na odrazivém povrchu';
-Blockly.Msg.EVENT_LINE_NON_REFLECTIVE = 'Senzor sledování čáry na neodrazivém povrchu';
-Blockly.Msg.EVENT_LINE_CHANGE = 'Senzor sledování čáry zaznamenal změnu povrchu';
-Blockly.Msg.EVENT_MESSAGE = 'IR zpráva přijata';
-Blockly.Msg.EVENT_REMOTE = 'Kód z ovladače přijat';
-Blockly.Msg.EVENT_START = 'Start';
+Blockly.Msg.EVENT_ANY_OBSTACLE = 'Obstacle détecté';
+Blockly.Msg.EVENT_OBSTACLE_AHEAD = 'Obstacle détecté devant';
+Blockly.Msg.EVENT_OBSTACLE_LEFT = 'Obstacle détecté à gauche';
+Blockly.Msg.EVENT_OBSTACLE_RIGHT = 'Obstacle détecté à droite';
+Blockly.Msg.EVENT_CLAP = Bruit détecté';
+Blockly.Msg.EVENT_BUTTON_TRIANGLE = 'Appui sur le bouton triangle';
+Blockly.Msg.EVENT_BUTTON_ROUND = 'Appui sur le bouton';
+Blockly.Msg.EVENT_LINE_REFLECTIVE = 'Surface blanche détectée';
+Blockly.Msg.EVENT_LINE_NON_REFLECTIVE = 'Surface noire détectée';
+Blockly.Msg.EVENT_LINE_CHANGE = 'Changement de couleur de la surface détectée';
+Blockly.Msg.EVENT_MESSAGE = 'message IR reçu';
+Blockly.Msg.EVENT_REMOTE = 'Code de télécommande reçu';
+Blockly.Msg.EVENT_START = 'Démarrer';
 
 
 
@@ -192,18 +192,18 @@ Blockly.Msg.OPERATORS_ADD = '%1 + %2';
 Blockly.Msg.OPERATORS_SUBTRACT = '%1 - %2';
 Blockly.Msg.OPERATORS_MULTIPLY = '%1 * %2';
 Blockly.Msg.OPERATORS_DIVIDE = '%1 / %2';
-Blockly.Msg.OPERATORS_RANDOM = 'náhodné číslo mezi %1 a %2';
+Blockly.Msg.OPERATORS_RANDOM = 'chiffre aléatoire entre %1 et %2';
 Blockly.Msg.OPERATORS_LT = '%1 < %2';
 Blockly.Msg.OPERATORS_LT_EQUAL = '%1 <= %2';
 Blockly.Msg.OPERATORS_EQUALS = '%1 = %2';
 Blockly.Msg.OPERATORS_GT_EQUAL = '%1 >= %2';
 Blockly.Msg.OPERATORS_GT = '%1 > %2';
-Blockly.Msg.OPERATORS_AND = '%1 a zároveň %2';
-Blockly.Msg.OPERATORS_OR = '%1 nebo %2';
+Blockly.Msg.OPERATORS_AND = '%1 ET %2';
+Blockly.Msg.OPERATORS_OR = '%1 OU %2';
 Blockly.Msg.OPERATORS_NOT_EQUALS = '%1 != %2';
-Blockly.Msg.OPERATORS_NOT = 'neplatí, že %1';
-Blockly.Msg.OPERATORS_ABS = 'absolutní hodnota z %1';
-Blockly.Msg.OPERATORS_BETWEEN = '%1 je mezi %2 a %3';
+Blockly.Msg.OPERATORS_NOT = 'NON %1';
+Blockly.Msg.OPERATORS_ABS = 'abs %1';
+Blockly.Msg.OPERATORS_BETWEEN = '%1 entre %2 et %3';
 
 
 
@@ -211,12 +211,12 @@ Blockly.Msg.OPERATORS_BETWEEN = '%1 je mezi %2 a %3';
 Blockly.Msg.PROCEDURES_DEFINITION = 'define %1';
 
 // Sensing blocks
-Blockly.Msg.SENSING_TURN_LINE_TRACKING_LED = 'senzor sledování čáry %1';
-Blockly.Msg.SENSING_TURN_OBSTACLE_BEAM = 'paprsek pro zjišťování překážek %1';
-Blockly.Msg.SENSING_CLEAR_SENSOR = 'smaž data %1';
-Blockly.Msg.SENSING_CLAP_DETECTED = 'tlesknutí';
-Blockly.Msg.SENSING_BUTTON_PRESSED = '%1 tlačítko zmáčknuto';
-Blockly.Msg.SENSING_OBSTACLE = 'překážka zjištěna %1';
+Blockly.Msg.SENSING_TURN_LINE_TRACKING_LED = 'capteur de suivi de ligne %1';
+Blockly.Msg.SENSING_TURN_OBSTACLE_BEAM = 'capteur d'obstacle %1';
+Blockly.Msg.SENSING_CLEAR_SENSOR = 'remise à zéro du capteur %1';
+Blockly.Msg.SENSING_CLAP_DETECTED = 'clap détecté';
+Blockly.Msg.SENSING_BUTTON_PRESSED = '%1 appui détecté';
+Blockly.Msg.SENSING_OBSTACLE = 'obstacle détecté %1';
 Blockly.Msg.SENSING_LINE_TRACKER = 'senzor sledování čáry na %1 povrchu';
 Blockly.Msg.SENSING_REMOTE_NUM = 'kód z ovladače';
 Blockly.Msg.SENSING_IR_MESSAGE_DETECTED = 'přijata IR zpráva';
@@ -237,28 +237,28 @@ Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_WHOLE = "celou";
 Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_HALF = "půlovou";
 Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_QUARTER = "čtvrťovou";
 Blockly.Msg.SOUND_PLAY_NOTE_DROP_DURATION_EIGHTH = "osminovou";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_C = "C";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_B = "H";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_A = "A";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_G = "G";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_F = "F";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_E = "E";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_D = "D";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_MID_C = "střední C";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_LOW_B = "nízké H";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_REST = "pomlku";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_C = "Do";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_B = "Si";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_A = "La";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_G = "Sol";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_F = "Fa";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_E = "Mi";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_D = "Ré";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_MID_C = "Do central";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_LOW_B = "Si grave";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_NOTE_REST = "silence";
 Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_NORMAL = " - ";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_SHARP = "křížek";
-Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_FLAT = "béčko";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_SHARP = "dièse";
+Blockly.Msg.SOUND_PLAY_NOTE_DROP_MOD_FLAT = "bémol";
 
-Blockly.Msg.SOUND_SET_TEMPO = "nastav tempo na %1";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_SLOW = "velmi pomalé";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_SLOW = "pomalé";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_MEDIUM = "střední";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_FAST= "rychlé";
-Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_FAST = "velmi rychlé";
+Blockly.Msg.SOUND_SET_TEMPO = "fixer le tempo sur %1";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_SLOW = "très lent";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_SLOW = "lent";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_MEDIUM = "moyen";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_FAST= "rapide";
+Blockly.Msg.SOUND_SET_TEMPO_DROP_VERY_FAST = "très rapide";
 
-Blockly.Msg.SOUND_PLAY_IN_BACKGROUND = "hraj hudbu na pozadí";
+Blockly.Msg.SOUND_PLAY_IN_BACKGROUND = "jouer le son en fond";
 
 
 Blockly.Msg.SOUND_PLAY = 'start sound %1';
@@ -275,7 +275,7 @@ Blockly.Msg.SOUND_VOLUME = 'volume';
 Blockly.Msg.SOUND_RECORD = 'record...';
 
 // Category labels
-Blockly.Msg.CATEGORY_MOTION = 'Motion';
+Blockly.Msg.CATEGORY_MOTION = 'Mouvement';
 
 Blockly.Msg.CATEGORY_LOOKS = 'Looks';
 Blockly.Msg.CATEGORY_SOUND = 'Sons';
@@ -283,12 +283,12 @@ Blockly.Msg.CATEGORY_EVENTS = 'Evènements';
 Blockly.Msg.CATEGORY_CONTROL = 'Contrôle';
 Blockly.Msg.CATEGORY_SENSING = 'Capteurs';
 Blockly.Msg.CATEGORY_OPERATORS = 'Operateurs';
-Blockly.Msg.CATEGORY_VARIABLES = 'Varirables';
+Blockly.Msg.CATEGORY_VARIABLES = 'Variables';
 Blockly.Msg.CATEGORY_MYBLOCKS = 'My Blocks';
 
-Blockly.Msg.CATEGORY_DRIVE = 'Pohyb';
-Blockly.Msg.CATEGORY_COMMENT = 'Komentář';
-Blockly.Msg.CATEGORY_LEDs = 'Světla';
+Blockly.Msg.CATEGORY_DRIVE = 'Moteurs';
+Blockly.Msg.CATEGORY_COMMENT = 'Commentaire';
+Blockly.Msg.CATEGORY_LEDs = 'DEL';
 Blockly.Msg.CATEGORY_ADVANCED = 'Pokročilé';
 
 // Context menus
