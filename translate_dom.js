@@ -11,10 +11,10 @@ for (var i = 0; i < categoryMenuItems.length; i++) {
 
     switch (menuTitle) {
         case "Drive":
-            translation = "Moteurs";
+            translation = "Mouvement";
             break;
         case "LEDs":
-            translation = "DELs";
+            translation = "Lumières";
             break;
         case "Sound":
             translation = "Sons";
@@ -23,7 +23,7 @@ for (var i = 0; i < categoryMenuItems.length; i++) {
             translation = "Données";
             break;
         case "Events":
-            translation = "Évènements";
+            translation = "Événements";
             break;
         case "Control":
             translation = "Contrôle";
@@ -35,7 +35,7 @@ for (var i = 0; i < categoryMenuItems.length; i++) {
             translation = "Opérateurs";
             break;
         case "Comment":
-            translation = "Commentaire";
+            translation = "Commentaires";
             break;
     }
 
